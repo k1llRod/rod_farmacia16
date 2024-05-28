@@ -4,7 +4,7 @@
 #    Cybrosys Technologies Pvt. Ltd.
 #
 #    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Gayathri v  (odoo@cybrosys.com)
+#    Author: Raneesha M K (odoo@cybrosys.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -21,7 +21,7 @@
 ###############################################################################
 {
     'name': 'Display Stock in POS | Restrict Out-of-Stock Products in POS',
-    'version': '15.0.1.0.0',
+    'version': '16.0.1.0.0',
     'category': 'Point of Sale',
     'summary': "Enhance your Point of Sale experience by preventing the "
                "ordering of out-of-stock products during your session",
@@ -34,18 +34,14 @@
     'maintainer': 'Cybrosys Techno Solutions',
     'website': 'https://www.cybrosys.com',
     'depends': ['point_of_sale'],
-    'data': [
-        'views/pos_config_views.xml'
-    ],
+    'data': ['views/res_config_settings_views.xml'],
     'assets': {
         'point_of_sale.assets': [
             '/pos_restrict_product_stock/static/src/css/display_stock.css',
-            '/pos_restrict_product_stock/static/src/js/RestrictStockPopup.js',
-            '/pos_restrict_product_stock/static/src/js/ProductScreen.js',
-        ],
-        'web.assets_qweb': [
             '/pos_restrict_product_stock/static/src/xml/ProductItem.xml',
             '/pos_restrict_product_stock/static/src/xml/RestrictStockPopup.xml',
+            '/pos_restrict_product_stock/static/src/js/RestrictStockPopup.js',
+            '/pos_restrict_product_stock/static/src/js/ProductScreen.js',
         ],
     },
     'images': ['static/description/banner.jpg'],

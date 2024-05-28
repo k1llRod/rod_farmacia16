@@ -4,9 +4,7 @@
  */
 import Registries from 'point_of_sale.Registries';
 import ProductScreen from 'point_of_sale.ProductScreen';
-import { Gui } from 'point_of_sale.Gui';
-var models = require('point_of_sale.models');
-models.load_fields('product.product', ['qty_available','virtual_available']);
+
 const RestrictProductScreen = (ProductScreen) => class RestrictProductScreen extends ProductScreen {
     async _clickProduct(event) {
         // Overriding product item click to restrict product out of stock

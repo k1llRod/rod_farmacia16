@@ -9,7 +9,7 @@ class RestrictStockPopup extends AbstractAwaitablePopup {
     _OrderProduct() {
     // On clicking order product button on popup, it will add product to orderline
         var product = this.env.pos.db.get_product_by_id(this.props.pro_id)
-        this.env.pos.get_order().add_product(product);
+        this.env.pos.selectedOrder.add_product(product);
         this.cancel();
     }
 }

@@ -1,4 +1,4 @@
-.. image:: https://img.shields.io/badge/license-AGPL--3-blue.svg
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
     :target: https://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 
@@ -21,10 +21,7 @@ Affero General Public License v3.0 (AGPL v3)
 
 Credits
 -------
-Developer:  V15 Gayathri V
-            V16 Raneesha M K,
-
-Contact : odoo@cybrosys.com
+Developer: (V16) Raneesha M K, Contact : odoo@cybrosys.com
 
 Contacts
 --------
